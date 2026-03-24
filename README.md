@@ -17,7 +17,7 @@ Neste projeto, são comparadas diferentes regiões com base em previsões de res
 
 O projeto utiliza dados sintéticos de três regiões potenciais para exploração, contendo características geológicas e o volume de reservas de petróleo associado a cada ponto analisado.
 
-Os arquivos utilizados no projeto são:
+Os arquivos utilizados no projeto estão organizados na pasta `datasets/`:
 
 - `geo_data_0.csv`
 - `geo_data_1.csv`
@@ -64,9 +64,10 @@ oilygiant-well-selection/
 ├── README.md
 ├── requirements.txt
 ├── oilygiant_well_selection.ipynb
-├── geo_data_0.csv
-├── geo_data_1.csv
-└── geo_data_2.csv
+└── datasets/
+    ├── geo_data_0.csv
+    ├── geo_data_1.csv
+    └── geo_data_2.csv
 ````
 
 ## Como executar
